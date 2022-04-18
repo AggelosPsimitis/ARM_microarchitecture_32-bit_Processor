@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.sim/sim_1/impl/timing/xsim/Control_TB_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-311] analyzing module FSM
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.srcs/sim_1/new/Control_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Control_TB'

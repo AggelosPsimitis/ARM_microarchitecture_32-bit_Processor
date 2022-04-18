@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Control_TB_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="Control_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="89302000fs"></ZoomStartTime>
+      <ZoomEndTime time="113102001fs"></ZoomEndTime>
+      <Cursor1Time time="650000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="73"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/Control_TB/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/IR" type="array">
+      <obj_property name="ElementShortName">IR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/SR" type="array">
+      <obj_property name="ElementShortName">SR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/uut/FSM_inst/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/uut/FSM_inst/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/RegSrc" type="array">
+      <obj_property name="ElementShortName">RegSrc[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RegSrc[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/ALUControl" type="array">
+      <obj_property name="ElementShortName">ALUControl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControl[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/ImmSrc" type="logic">
+      <obj_property name="ElementShortName">ImmSrc</obj_property>
+      <obj_property name="ObjectShortName">ImmSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/IRWrite" type="logic">
+      <obj_property name="ElementShortName">IRWrite</obj_property>
+      <obj_property name="ObjectShortName">IRWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/MAWrite" type="logic">
+      <obj_property name="ElementShortName">MAWrite</obj_property>
+      <obj_property name="ObjectShortName">MAWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/FlagsWrite" type="logic">
+      <obj_property name="ElementShortName">FlagsWrite</obj_property>
+      <obj_property name="ObjectShortName">FlagsWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/PCSrc" type="array">
+      <obj_property name="ElementShortName">PCSrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCSrc[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/PCWrite" type="logic">
+      <obj_property name="ElementShortName">PCWrite</obj_property>
+      <obj_property name="ObjectShortName">PCWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Control_TB/CLK_period" type="other">
+      <obj_property name="ElementShortName">CLK_period</obj_property>
+      <obj_property name="ObjectShortName">CLK_period</obj_property>
+   </wvobject>
+</wave_config>

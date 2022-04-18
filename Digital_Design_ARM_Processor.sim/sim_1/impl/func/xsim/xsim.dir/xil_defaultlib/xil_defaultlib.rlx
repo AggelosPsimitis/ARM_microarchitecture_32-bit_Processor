@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.sim/sim_1/impl/func/xsim/Control_TB_func_impl.vhd,1617054364,vhdl,,,,control;fsm;instrdec,,,,,,,,
+C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.sim/sim_1/impl/func/xsim/REG_FILE_tb_func_impl.vhd,1617159317,vhdl,,,,reg_file,,,,,,,,
+C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.srcs/sim_1/new/Control_TB.vhd,1617049372,vhdl,,,,control_tb,,,,,,,,
+C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.srcs/sim_1/new/REG_FILE_TB.vhd,1617159306,vhdl,,,,reg_file_tb,,,,,,,,

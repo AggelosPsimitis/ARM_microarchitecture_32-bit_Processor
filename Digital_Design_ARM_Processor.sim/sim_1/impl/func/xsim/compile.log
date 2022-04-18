@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.sim/sim_1/impl/func/xsim/REG_FILE_tb_func_impl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'REG_FILE'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.srcs/sim_1/new/REG_FILE_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'REG_FILE_tb'

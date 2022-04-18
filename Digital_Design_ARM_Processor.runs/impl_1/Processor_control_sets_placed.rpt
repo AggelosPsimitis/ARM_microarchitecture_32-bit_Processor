@@ -1,0 +1,89 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Mar 31 23:15:22 2021
+| Host         : LAPTOP-8G8LECAQ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Processor_control_sets_placed.rpt
+| Design       : Processor
+| Device       : xc7z030
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    23 |
+| Unused register locations in slices containing registers |    16 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      5 |            1 |
+|      8 |            1 |
+|    16+ |           21 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              72 |           28 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             217 |           80 |
+| Yes          | No                    | No                     |              32 |           10 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             575 |          188 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------+------------------+----------------+
+|                    Clock Signal                   |                             Enable Signal                             |                Set/Reset Signal               | Slice Load Count | Bel Load Count |
++---------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------+------------------+----------------+
+| ~CLK_IBUF_BUFG                                    | Control_Module_inst/FSM_inst/FSM_sequential_current_state_reg[1]_0[0] | RESET_IBUF                                    |                1 |              5 |
+|  Control_Module_inst/FSM_inst/PCWrite_reg_i_2_n_2 |                                                                       |                                               |                2 |              8 |
+|  n_0_139_BUFG                                     |                                                                       |                                               |               15 |             32 |
+|  n_1_138_BUFG                                     |                                                                       |                                               |               11 |             32 |
+| ~CLK_IBUF_BUFG                                    | Control_Module_inst/FSM_inst/E[0]                                     | RESET_IBUF                                    |               10 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[14]_0                          | DataPath_module_inst/IR_REG_inst/Q_reg[14]_6  |                6 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[14]_1                          | DataPath_module_inst/IR_REG_inst/Q_reg[13]_2  |                8 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[14]_2                          | DataPath_module_inst/IR_REG_inst/Q_reg[15]_32 |                8 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[14]_3                          | DataPath_module_inst/IR_REG_inst/Q_reg[14]_9  |                8 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[15]_0                          | DataPath_module_inst/IR_REG_inst/Q_reg[14]_5  |                9 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[15]_1                          | DataPath_module_inst/IR_REG_inst/Q_reg[14]_7  |                7 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[13]_0                          | DataPath_module_inst/IR_REG_inst/Q_reg[12]_4  |               25 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[13]_1                          | DataPath_module_inst/IR_REG_inst/Q_reg[12]_3  |                7 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[15]_5                          | DataPath_module_inst/IR_REG_inst/Q_reg[12]_1  |                8 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[15]_6                          | DataPath_module_inst/IR_REG_inst/Q_reg[15]_33 |               20 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[15]_7                          | DataPath_module_inst/IR_REG_inst/Q_reg[12]_2  |               11 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[15]_4                          | DataPath_module_inst/IR_REG_inst/Q_reg[15]_13 |                9 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[15]_2                          | DataPath_module_inst/IR_REG_inst/Q_reg[15]_11 |               11 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/Q_reg[15]_3                          | DataPath_module_inst/IR_REG_inst/Q_reg[15]_12 |               14 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/RESET                                | DataPath_module_inst/IR_REG_inst/RESET_0      |                7 |             32 |
+| ~CLK_IBUF_BUFG                                    | DataPath_module_inst/IR_REG_inst/E[0]                                 |                                               |               10 |             32 |
+| ~CLK_IBUF_BUFG                                    | Control_Module_inst/FSM_inst/IRWrite                                  | RESET_IBUF                                    |               19 |             58 |
+| ~CLK_IBUF_BUFG                                    |                                                                       | RESET_IBUF                                    |               80 |            217 |
++---------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"Control_TB_func_impl.vhd" \
+"../../../../../Digital_Design_ARM_Processor.srcs/sim_1/new/Control_TB.vhd" \
+
+# Do not sort compile order
+nosort

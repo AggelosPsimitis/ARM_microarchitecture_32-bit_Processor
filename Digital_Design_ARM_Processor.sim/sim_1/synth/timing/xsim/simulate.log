@@ -1,0 +1,12 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: "C:\Xilinx\Vivado\2018.3\data/verilog/src/unisims/FDRE.v" Line 144: Timing violation in scope /Control_TB/uut/FSM_inst/FSM_sequential_current_state_reg[0]/TChk144_270 at time 113214 ps $setuphold (negedge C,negedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_n,in_clk_enable_n,C_dly,D_dly) 
+WARNING: "C:\Xilinx\Vivado\2018.3\data/verilog/src/unisims/FDRE.v" Line 144: Timing violation in scope /Control_TB/uut/FSM_inst/FSM_sequential_current_state_reg[0]/TChk144_270 at time 263069 ps $setuphold (negedge C,negedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_n,in_clk_enable_n,C_dly,D_dly) 
+WARNING: "C:\Xilinx\Vivado\2018.3\data/verilog/src/unisims/FDRE.v" Line 147: Timing violation in scope /Control_TB/uut/FSM_inst/FSM_sequential_current_state_reg[0]/TChk147_273 at time 303069 ps $setuphold (negedge C,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_n,in_clk_enable_n,C_dly,D_dly) 
+Note: TESTS COMPLETED
+Time: 650 ns  Iteration: 0  Process: /Control_TB/Stimulus_process  File: C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.srcs/sim_1/new/Control_TB.vhd
+WARNING: "C:\Xilinx\Vivado\2018.3\data/verilog/src/unisims/FDRE.v" Line 144: Timing violation in scope /Control_TB/uut/FSM_inst/FSM_sequential_current_state_reg[0]/TChk144_270 at time 113214 ps $setuphold (negedge C,negedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_n,in_clk_enable_n,C_dly,D_dly) 
+WARNING: "C:\Xilinx\Vivado\2018.3\data/verilog/src/unisims/FDRE.v" Line 144: Timing violation in scope /Control_TB/uut/FSM_inst/FSM_sequential_current_state_reg[0]/TChk144_270 at time 263069 ps $setuphold (negedge C,negedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_n,in_clk_enable_n,C_dly,D_dly) 
+WARNING: "C:\Xilinx\Vivado\2018.3\data/verilog/src/unisims/FDRE.v" Line 147: Timing violation in scope /Control_TB/uut/FSM_inst/FSM_sequential_current_state_reg[0]/TChk147_273 at time 303069 ps $setuphold (negedge C,posedge D,(0:0:0),(0:0:0),notifier,in_clk_enable_n,in_clk_enable_n,C_dly,D_dly) 
+Note: TESTS COMPLETED
+Time: 650 ns  Iteration: 0  Process: /Control_TB/Stimulus_process  File: C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.srcs/sim_1/new/Control_TB.vhd

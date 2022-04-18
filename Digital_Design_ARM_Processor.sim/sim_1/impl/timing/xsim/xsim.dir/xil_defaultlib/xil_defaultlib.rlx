@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.sim/sim_1/impl/timing/xsim/Control_TB_time_impl.v,1617192737,verilog,,,,Control;FSM;glbl,,,,,,,,
+C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.srcs/sim_1/new/ALU_TB.vhd,1617179859,vhdl,,,,alu_tb,,,,,,,,
+C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.srcs/sim_1/new/Control_TB.vhd,1617135930,vhdl,,,,control_tb,,,,,,,,
+C:/Xilinx/Projects/Digital_Design_ARM_Processor/Digital_Design_ARM_Processor.srcs/sim_1/new/REG_FILE_TB.vhd,1617159306,vhdl,,,,reg_file_tb,,,,,,,,

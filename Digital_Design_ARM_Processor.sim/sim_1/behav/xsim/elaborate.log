@@ -1,0 +1,35 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b5d84fdd2dbe4b80b7bcd8696783d8dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Processor_tb_behav xil_defaultlib.Processor_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package std.env
+Compiling architecture behavioral of entity xil_defaultlib.WE_REGN [we_regn_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.INC4 [inc4_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX2x1 [\MUX2x1(width=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.REG_FILE [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.Extend [extend_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX2x1 [mux2x1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Logic_Unit [logic_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture structural of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.WE_REGN [\WE_REGN(width=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.Data_Memory [data_memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX3x1 [mux3x1_default]
+Compiling architecture structural of entity xil_defaultlib.Data_Path [data_path_default]
+Compiling architecture behavioral of entity xil_defaultlib.InstrDec [instrdec_default]
+Compiling architecture behavioral of entity xil_defaultlib.FSM [fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.CONDLogic [condlogic_default]
+Compiling architecture structural of entity xil_defaultlib.Control [control_default]
+Compiling architecture structural of entity xil_defaultlib.Processor [processor_default]
+Compiling architecture bench of entity xil_defaultlib.processor_tb
+Built simulation snapshot Processor_tb_behav

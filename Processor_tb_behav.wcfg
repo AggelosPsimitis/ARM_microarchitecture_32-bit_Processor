@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Processor_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Processor_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="432482000fs"></ZoomStartTime>
+      <ZoomEndTime time="681282001fs"></ZoomEndTime>
+      <Cursor1Time time="620082000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wave_markers>
+      <marker time="550378000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/Processor_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_tb/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_tb/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_tb/instr" type="array">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_tb/uut/Control_Module_inst/FSM_inst/current_state" type="other">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_tb/uut/DataPath_module_inst/REG_FILE_inst/RF" type="array">
+      <obj_property name="ElementShortName">RF[15:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF[15:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_tb/uut/DataPath_module_inst/DM_inst/RAM" type="array">
+      <obj_property name="ElementShortName">RAM[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_tb/ALUResult" type="array">
+      <obj_property name="ElementShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_tb/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_tb/Result" type="array">
+      <obj_property name="ElementShortName">Result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Processor_tb/CLK_period" type="other">
+      <obj_property name="ElementShortName">CLK_period</obj_property>
+      <obj_property name="ObjectShortName">CLK_period</obj_property>
+   </wvobject>
+</wave_config>
