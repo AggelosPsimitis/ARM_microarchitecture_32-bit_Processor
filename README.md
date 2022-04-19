@@ -1,6 +1,6 @@
 ## Multi Cycle processor design methodology <br>
 Final project for the digital systems design class of the electronic automation post-graduate
-program offered in the physics department of the NKUA (National Kapodistrian University of Athens).
+program (NKUA).
 
 The design is implemented in VHDL using Xilinx Vivado IDE.
 
